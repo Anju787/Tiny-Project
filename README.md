@@ -1,18 +1,8 @@
+Developed a frontend in ReactJS, which renders a "profile screen" as follows: https://www.terriblytinytales.com/profile.jpeg 
 
-# Profile Screen
-A profile screen created using ReactJS for the task of Terribly Tiny Tales.
+Deployment link : https://anjutinyproject.netlify.app/
 
-### Weblink: [Live Website](https://benju2205-ttt.onrender.com)
-## Some Images:
-<div style="display: flex;">
-<img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/08f134c6-0424-4200-939e-5d8c4fe80d39" style="width: 300px; height: 450px; object-fit: cover; margin-right: 10px;"/>
-<img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/2a2a55db-d8f6-498d-8c78-4f657f700864" style="width: 450px; height: 450px; object-fit: cover; margin-right: 10px;"/>
-<img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/058a8cce-b216-488c-9c48-b43c360a0f52" style="width: 450px; height: 300px; object-fit: cover; margin-right: 10px;"/>
-<img width="450px;" src="https://github.com/Benju2205/terribly_tiny_tales/assets/120126423/38bfe1d5-2741-40d8-ad2a-97396de46141" style="width: 450px; height: 300px; object-fit: cover; margin-right: 10px;"/>
-</div>
-
-
-## Table of Contents
+ Contents
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies/Libraries Used](#technologies-used)
@@ -21,16 +11,16 @@ A profile screen created using ReactJS for the task of Terribly Tiny Tales.
 - [Installation](#installation)
 - [Feedback and Contributions](#contributions)
 
-## Introduction
-This app is created for the task given by Terribly Tiny Tales for the recruitment process for the role of Frontend Developer intern.
+ Introduction
+This app is created for the task given by Terribly Tiny Tales for the recruitment process.
 
-## Features
+Features
 - **Responsive Design**: The profile screen adapts seamlessly to various screen sizes, ensuring a consistent and user-friendly experience across devices.
 - **Profile Information Display**: Displays user profile details such as name, bio, profile picture, etc., in an organized and visually appealing layout
 - **Tailwind CSS Integration**: Utilizes Tailwind CSS for efficient and customizable styling, leveraging utility classes for rapid UI development.
 - **Material Design Components**: Integrates Material-Tailwind, providing Material Design components that enhance the visual appeal and usability of the profile screen.
 
-## Technologies/Libraries Used
+ Technologies/Libraries Used
 - **React.js**: A JavaScript library for building user interfaces.
 - **HTML5 & CSS3**: Markup and styling languages for building web pages.
 - **JavaScript**: A programming language for adding interactivity to web applications.
@@ -43,7 +33,7 @@ This app is created for the task given by Terribly Tiny Tales for the recruitmen
     - *Screens Extension*: Adds an additional screen breakpoint named xsm with a maximum width of 279px. This breakpoint can be used in responsive designs to target smaller viewports.
     - *Letter Spacing Extension*: Defines a custom letter spacing named "widest-plus" with a value of "0.3em". This can be applied to text elements to achieve a specific letter spacing effect.
 
-## Components
+Components
 - **Header**: The `Header` component in this project serves as the top navigation bar.
     - *Navigation Elements*: Displays navigation elements such as "STORIES" and "Courses" using semantic HTML tags and Tailwind CSS classes for styling.
     - *Logo Link*: Utilizes a Link component from react-router-dom to create a clickable logo that redirects users to the home page ("/").
@@ -74,17 +64,6 @@ This app is created for the task given by Terribly Tiny Tales for the recruitmen
 - **react@18.2.0**: Core React library.
 - **react-scripts@5.0.1**: React scripts for development.
 
-## Installation
-To run this portfolio locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/Benju2205/New-Portfolio.git`
-2. Navigate to the project directory: `cd profile-screen`
-3. Install the dependencies: `npm install`
-4. Start the development server: `npm start`
-5. Open your browser and visit: `http://localhost:3000`
 
-## Feedback and Contributions
-- If you have any feedback, suggestions, or bug reports, please create an issue in the repository.
-
-- Contributions are welcome! If you'd like to contribute to this project, fork the repository, make your changes, and submit a pull request.
 
